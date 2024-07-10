@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercice libre PHP 1</title>
+
     <style>
         p {
             font-weight : lighter;
         }
     </style>
+    
 </head>
 <body>
 
@@ -23,8 +25,10 @@ $fruits = ["Pomme", "Banane", "Orange", "Fraise"];
 // FAIRE APPARAITRE LES ELEMENTS DU TABLEAU (LES FRUITS)
 $fruits = ["Pomme", "Banane", "Orange", "Fraise"];
 
+echo "<ul>";
 foreach ($fruits as $fruit) {
-    echo $fruit . "<br>";
+    
+    echo "<li> $fruit <br>";
 }
 
     ?>
