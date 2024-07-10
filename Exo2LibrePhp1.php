@@ -18,9 +18,9 @@
 
 <p>Créer un script PHP qui affiche tous les nombres pairs entre 1 et 20.</p>
     <?php
-    
+    $tabNombres = array();
 
-
+echo var_dump($tabNombres);
     ?>
 </body>
 </html>
