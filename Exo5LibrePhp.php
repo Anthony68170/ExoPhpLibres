@@ -10,7 +10,7 @@
             font-weight :lighter;
         }
     </style>
-    
+
     </head>
 <body>
 <h1>Exercice 5 : Trouver le plus grand nombre dans un tableau</h1>
@@ -19,8 +19,8 @@
     <?php
 
     $tabnb = [3,5,7,2,8,1,9];
-
-
+    $maxNb = max($tabnb);
+    echo "Le plus grand nombre du tableau est : $maxNb";
     ?>
 
 </body>
