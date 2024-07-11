@@ -15,8 +15,19 @@
     
     <h1>Exercice 4 : Afficher les éléments d'un tableau associatif</h1>
     <p>Crée un script PHP qui affiche chaque clé et valeur d'un tableau associatif de pays et de leurs capitales. <br>
-    Exemple : <br>
+    <br>Exemple : <br>
     ["France" => "Paris", "Allemagne" => "Berlin", "Espagne" => "Madrid"].</p>
 
+
+<?php
+$tabPays = ["France", "Allemagne", "Espagne"];
+$tabCapital = ["Paris", "Berlin", "Madrid"];
+$nbPays = count($tabPays);
+
+echo "Le nombre de Pays enregistré(s) est de : $nbPays<br>";
+
+$nbCap = count($tabCapital);
+echo "Le nombre de Capitale(s) enregistrée(s) est de : $nbCap<br>";
+?>
 </body>
 </html>
