@@ -20,14 +20,21 @@
 
 
 <?php
-$tabPays = ["France", "Allemagne", "Espagne"];
-$tabCapital = ["Paris", "Berlin", "Madrid"];
-$nbPays = count($tabPays);
+//$tabPays = ["France", "Allemagne", "Espagne"];
+//$tabCapital = ["Paris", "Berlin", "Madrid"];
+//$nbPays = count($tabPays);
+//$nbCap = count($tabCapital);
+$tabAssoPaysCap = ['Pays' => 'Capitales',
+'France' => 'Paris',
+'Allemagne' => 'Berlin',
+'Epagne' => 'Madrid'];
+echo $tabAssoPaysCap[];
 
-echo "Le nombre de Pays enregistré(s) est de : $nbPays<br>";
+//echo "Le nombre de Pays enregistré(s) est de : $nbPays<br>";
+//echo "Le nombre de Capitale(s) enregistrée(s) est de : $nbCap<br>";
 
-$nbCap = count($tabCapital);
-echo "Le nombre de Capitale(s) enregistrée(s) est de : $nbCap<br>";
+
+
 ?>
 </body>
 </html>
