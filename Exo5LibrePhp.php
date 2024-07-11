@@ -9,11 +9,19 @@
         p{
             font-weight :lighter;
         }
-
+    </style>
+    
     </head>
 <body>
 <h1>Exercice 5 : Trouver le plus grand nombre dans un tableau</h1>
-<p>Crée un script PHP qui trouve et affiche le plus grand nombre dans un tableau de nombres [3, 5, 7, 2, 8, 1, 9].</p>
+<p>Crée un script PHP qui trouve et affiche le plus grand nombre dans un tableau de nombres [3, 5, 7, 2, 8, 1, 9]</p>
+
+    <?php
+
+    $tabnb = [3,5,7,2,8,1,9];
+
+
+    ?>
 
 </body>
 </html>
