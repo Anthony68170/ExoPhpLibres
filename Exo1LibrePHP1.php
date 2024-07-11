@@ -25,6 +25,7 @@ $fruits = ["Pomme", "Banane", "Orange", "Fraise"];
 // FAIRE APPARAITRE LES ELEMENTS DU TABLEAU (LES FRUITS)
 $fruits = ["Pomme", "Banane", "Orange", "Fraise"];
 
+// EN AJOUTANT UNE LISTE DE PUCES DEVANT LES FRUITS
 echo "<ul>";
 foreach ($fruits as $fruit) {
     
