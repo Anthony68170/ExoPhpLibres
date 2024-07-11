@@ -26,7 +26,7 @@
 //$nbCap = count($tabCapital);
 $tabAssoPaysCap = ['France' => 'Paris','Allemagne' => 'Berlin','Espagne' => 'Madrid'];
 foreach ($tabAssoPaysCap as $pays => $capitale){
-    echo "$pays : $capitale";
+    echo "La $pays a pour capitale $capitale<br>";
 }
 //echo "Le nombre de Pays enregistré(s) est de : $nbPays<br>";
 //echo "Le nombre de Capitale(s) enregistrée(s) est de : $nbCap<br>";
