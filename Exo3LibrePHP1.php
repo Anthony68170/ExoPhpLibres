@@ -17,6 +17,7 @@
 <body>
     <h1>Exercice 3 : Calculer la somme des éléments d'un tableau</h1>
 
+    <p>Crée un script PHP qui calcule et affiche la somme des éléments d'un tableau de nombres [2, 4, 6, 8, 10].</p>
 
 </body>
 </html>
